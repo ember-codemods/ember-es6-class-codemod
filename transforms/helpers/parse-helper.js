@@ -136,7 +136,7 @@ function getClassName(j, eoCallExpression, filePath, type = '') {
     className = capitalizeFirstLetter(camelCase(path.basename(path.dirname(filePath))));
   }
 
-  if (!['Component', 'Helper', 'EmberObject'].includes(type)) {
+  if (!['Component', 'Helper', 'EmberObject'].includes(type) && !className.endsWith(type)) {
     className = `${className}${capitalizedType}`;
   }
 
