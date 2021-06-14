@@ -41,6 +41,9 @@
   "types/services/basic": {
     "type": "Service"
   },
+  "types/services/some-service": {
+    "type": "Service"
+  },
   "types/pods/foo/controller": {
     "type": "Controller"
   }
