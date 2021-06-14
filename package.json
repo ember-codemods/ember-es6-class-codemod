@@ -35,7 +35,7 @@
     "update-docs": "codemod-cli update-docs"
   },
   "dependencies": {
-    "codemod-cli": "^2.0.0",
+    "codemod-cli": "^3.2.0",
     "ember-codemods-telemetry-helpers": "^2.1.0",
     "fs-extra": "^8.0.1",
     "git-repo-info": "^2.1.0",
